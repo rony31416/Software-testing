@@ -1,0 +1,47 @@
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Output directories
+/out/
+*/out/
+*/target/
+*/bin/
+
+# Build files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven files
+*.log
+target/
+*.class
+!**/src/main/**
+!**/src/test/**
+
+# Gradle files
+.gradle/
+build/
+!**/src/main/**
+!**/src/test/**
+
+# JUnit and test-related files
+test-results/
+**/test-classes/
+**/test-results/
+**/test-output/
+**/surefire-reports/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other IDE specific files
+.vscode/
+*.user
+*.sublime-workspace
+
